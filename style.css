@@ -1,0 +1,125 @@
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    color: white;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainc{
+    margin-top: 50px;
+    width: 325px;
+    height: 540px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0px 1px 2px 4px rgba(0, 0, 0, 0.05),
+    1px 2px 4px 8px rgba(0, 0, 0, 0.05),
+    2px 4px 8px 16px rgba(0, 0, 0, 0.05),
+    4px 8px 16px 32px rgba(0, 0, 0, 0.05);
+    transition: 300ms;
+}
+/* this is the part am having the hover problem with */
+/* #mainc :hover{ 
+    box-shadow:
+    0px 1px 2px 4px rgba(0, 0, 0, 0.15),
+    1px 2px 4px 8px rgba(0, 0, 0, 0.15),
+    2px 4px 8px 16px rgba(0, 0, 0, 0.15),
+    4px 8px 16px 32px rgba(0, 0, 0, 0.15);
+} */
+.imgcon{
+    position: relative;
+    width: 275px;
+    margin: 20px;
+    height: 275px;
+    border-radius: 10px;
+    left: 5px;
+}
+.pimg{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.space{
+    line-height: 1.7;
+    margin-top: -2px;
+}
+.nft-hover{
+    background-color: hsl(178, 100%, 50%, 50%); 
+    position: absolute;
+    width: 100%;
+    margin: 20px;
+    height: 275px;
+    border-radius: 10px;
+    bottom: 0;
+    left: -20px;
+    right: 0;
+    top: -20px;
+    opacity: 0;
+    cursor: pointer;
+    transition: 300ms;
+}
+.nft-hover:hover{
+    opacity: 1;
+}
+.himg{
+    padding-top: 45%; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body a:hover{
+    color: hsl(178, 100%, 50%);
+
+}
+.topt{
+    text-align: left;
+    margin-left: 23px;
+    margin-top: 30px;
+}
+p{
+    color: hsl(215, 51%, 70%);
+}
+.ethcon{
+    display: flex;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin: -17px 20px;
+}
+.ethcon img{
+    align-self: flex-start;
+    
+}
+.eth{
+    margin: 16px 6px 0 3px;
+}
+.time{
+    margin: 16px 6px 0 80px;
+}
+#pch{
+    color: hsl(178, 100%, 50%);
+}
+.lastsec{
+    display: flex;
+    margin-top: 13px;
+
+}
+.lastsec img{
+    width: 30px;
+    align-self: flex-start;
+    margin: 16px 10px 0 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.lastsec p{
+    margin-top: 22px;
+    margin-left: 3px;
+}
+.lastsec a{
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.attribution{
+    position: fixed;
+    bottom: 0;
+}
